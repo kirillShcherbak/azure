@@ -63,3 +63,24 @@
 
 
 
+.selected-solutions__section {
+  display: -ms-flexbox;
+  display: flex; }
+
+.selected-solutions__heading {
+  text-align: center; }
+
+.selected-solutions__items {
+  display: -ms-flexbox;
+  display: flex;
+  direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.selected-solutions__item {
+  width: 25%; }
+
+.selected-solutions__image-box {
+  border: 2px solid #dbdbdb; }
+  .selected-solutions__image-box img {
+    width: 100%; }
