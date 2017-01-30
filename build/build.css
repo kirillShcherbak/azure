@@ -60,6 +60,36 @@
   margin: 0; }
 
 
+.resources__items {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.resources__item {
+  padding: 5px; }
+
+.resources__item-innerbox {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #3c5ade; }
+
+.resources__item-1 {
+  width: 60%; }
+
+.resources__item-2 {
+  width: 40%; }
+
+.resources__item-3 {
+  width: 35%; }
+
+.resources__item-4 {
+  width: 35%; }
+
+.resources__item-5 {
+  width: 30%; }
 
 .russian-solutions__section {
   background-color: #0078d7; }

@@ -1,0 +1,39 @@
+.resources {
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		padding: 5px;
+	}
+
+	&__item-innerbox {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border: 2px solid #3c5ade;
+	}
+
+	&__item-1 {
+		width: 60%;
+	}
+
+	&__item-2 {
+		width: 40%;
+	}
+
+	&__item-3 {
+		width: 35%;
+	}
+
+	&__item-4 {
+		width: 35%;
+	}
+
+	&__item-5 {
+		width: 30%;
+	}
+
+}
