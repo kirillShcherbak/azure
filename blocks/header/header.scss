@@ -1,3 +1,14 @@
 .header {
 	border-bottom: 5px solid #eeeeee;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__social {
+		display: flex;
+	}
+
 }
+

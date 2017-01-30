@@ -1,0 +1,41 @@
+.jumbotron {
+
+	&__section {
+		display: flex;
+		background-color: #27b7f9;
+	}	
+
+	&__container {
+		display: flex;
+	}	
+
+	&__text {
+		width: 50%;
+		color: white;
+		align-self: center;
+	}
+
+	&__machine {
+		width: 50%;
+		align-self: center;
+	}
+
+	&__machine img {
+		max-width: 100%;
+		align-self: center;
+	}	
+
+	&__left-cloud {
+		align-self: center;
+		width: 22%;
+	}
+
+	&__right-cloud {
+		align-self: center;
+		width: 22%;
+	}
+
+
+}
+
+

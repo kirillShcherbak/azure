@@ -1,10 +1,57 @@
 .container {
   width: 50%;
-  background-color: green; }
+  margin: auto; }
 
 .header {
   border-bottom: 5px solid #eeeeee; }
+  .header__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .header__social {
+    display: -ms-flexbox;
+    display: flex; }
 
+.jumbotron__section {
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #27b7f9; }
+
+.jumbotron__container {
+  display: -ms-flexbox;
+  display: flex; }
+
+.jumbotron__text {
+  width: 50%;
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+
+.jumbotron__machine {
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+
+.jumbotron__machine img {
+  max-width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+
+.jumbotron__left-cloud {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 22%; }
+
+.jumbotron__right-cloud {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 22%; }
 
 .page {
   font-family: "Open Sans"; }
