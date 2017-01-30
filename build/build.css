@@ -61,6 +61,22 @@
 
 
 
+.russian-solutions__section {
+  background-color: #0078d7; }
+
+.russian-solutions__container {
+  display: -ms-flexbox;
+  display: flex; }
+
+.russian-solutions__text {
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+
+.russian-solutions__text a {
+  color: #00ff1f;
+  text-decoration: none; }
 
 
 .selected-solutions__section {

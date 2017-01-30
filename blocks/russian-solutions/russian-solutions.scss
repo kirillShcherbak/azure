@@ -1,0 +1,19 @@
+.russian-solutions {
+	&__section {
+		background-color: #0078d7;
+	}
+
+	&__container {
+		display: flex;
+	}
+
+	&__text {
+		color: white;
+		align-self: center;
+	}
+
+	&__text a {
+		color: #00ff1f;
+		text-decoration: none;
+	}
+}
