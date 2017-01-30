@@ -59,6 +59,13 @@
 * {
   margin: 0; }
 
+.purchase__steps {
+  display: -ms-flexbox;
+  display: flex;
+  direction: row; }
+
+.purchase__step {
+  width: 20%; }
 
 .resources__items {
   display: -ms-flexbox;
@@ -130,3 +137,15 @@
   border: 2px solid #dbdbdb; }
   .selected-solutions__image-box img {
     width: 100%; }
+
+.selected-solutions__left-cloud {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 22%; }
+
+.selected-solutions__right-cloud {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 22%; }

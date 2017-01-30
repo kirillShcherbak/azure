@@ -1,0 +1,10 @@
+.purchase {
+	&__steps {
+		display: flex;
+		direction: row;
+	}
+
+	&__step {
+		width: 20%;
+	}
+}
