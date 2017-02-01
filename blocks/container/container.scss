@@ -3,3 +3,21 @@
 	// background-color: green;
 	margin: auto;
 }
+
+@media (max-width: 991px) {
+
+	.container {
+		width: 90%
+	}
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 479px) {
+		.container {
+	}
+
+}

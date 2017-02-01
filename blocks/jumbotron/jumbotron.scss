@@ -36,3 +36,23 @@
 	}
 
 }
+
+@media (max-width: 991px) {
+
+	.jumbotron__left-cloud {
+		display: none;
+	}
+
+	.jumbotron__right-cloud {
+		display: none;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 479px) {
+
+}

@@ -5,6 +5,11 @@
 
 	&__container {
 		display: flex;
+		flex-direction: row;
+	}
+
+	&__image img {
+		padding: 12px;
 	}
 
 	&__text {
@@ -16,4 +21,24 @@
 		color: #00ff1f;
 		text-decoration: none;
 	}
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 479px) {
+
+	.russian-solutions__container {
+		flex-direction: column;
+	}
+
+	.russian-solutions__image {
+		align-self: center;
+	}
+
 }
