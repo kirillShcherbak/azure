@@ -55,4 +55,16 @@
 
 @media (max-width: 479px) {
 
+	.jumbotron__container {
+		flex-direction: column;
+	}
+
+	.jumbotron__text {
+		width: 100%;
+	}
+
+	.jumbotron__machine {
+		width: 50%;
+	}
+
 }

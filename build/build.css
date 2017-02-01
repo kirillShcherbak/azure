@@ -70,6 +70,15 @@
   .jumbotron__right-cloud {
     display: none; } }
 
+@media (max-width: 479px) {
+  .jumbotron__container {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .jumbotron__text {
+    width: 100%; }
+  .jumbotron__machine {
+    width: 50%; } }
+
 .page {
   font-family: "Open Sans"; }
 
@@ -141,7 +150,11 @@
     position: relative;
     width: 1px;
     height: 100px;
-    background-color: #309EF3; } }
+    background-color: #309EF3;
+    margin: 0;
+    top: 40px;
+    left: 25px;
+    z-index: -1; } }
 
 .resources__items {
   display: -ms-flexbox;
@@ -284,7 +297,9 @@
 
 @media (max-width: 767px) {
   .selected-solutions__item {
-    width: 50%; } }
+    width: 50%; }
+  .selected-solutions__item-text {
+    text-align: center; } }
 
 @media (max-width: 479px) {
   .selected-solutions__item {
