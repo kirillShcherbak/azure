@@ -2,6 +2,8 @@
 	&__steps {
 		display: flex;
 		flex-direction: row;
+		position:relative;
+		padding-bottom: 20px;
 	}
 
 	&__step {
@@ -17,10 +19,6 @@
 		margin: auto;
 		border: 1px solid #309EF3;
 		z-index: -1;
-	}
-
-	&__vert-line {
-		display: none;
 	}
 
 	&__circle {
@@ -39,6 +37,8 @@
 
 	&__item-text {
 		align-self: center;
+		font-size: 0.8em;
+		width: 90%;
 		text-align: center;
 	}
 }
@@ -63,16 +63,8 @@
 		display: none;
 	}
 
-	.purchase__vert-line {
-		display: block;
-		position: relative;
-		width: 1px;
-	   	height: 100px;
-		background-color: #309EF3;
-		margin: 0;
-		top: 40px;
-		left: 25px;
-		z-index: -1;
+	.purchase__item-text {
+		text-align: left;
 	}
 
 }

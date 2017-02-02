@@ -12,6 +12,7 @@
 		display: flex;
 		direction: row;
 		flex-wrap: wrap;
+		padding-bottom: 20px;
 	}
 
 	&__item {
@@ -19,6 +20,14 @@
 		padding-left: 5px;
 		padding-right: 5px;		
 	}	
+
+	&__item:hover &__image-box {
+		border: 2px solid #6CBD00;
+	}
+
+	&__item:hover &__item-text {
+		color: #6CBD00;
+	}			
 
 	&__item-text {
 		padding-top: 5px;
@@ -35,12 +44,12 @@
 
 	&__left-cloud {
 		align-self: center;
-		width: 22%;
+		width: 15%;
 	}
 
 	&__right-cloud {
 		align-self: center;
-		width: 22%;
+		width: 16%;
 	}
 
 }

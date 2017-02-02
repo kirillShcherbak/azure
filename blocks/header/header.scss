@@ -1,13 +1,33 @@
 .header {
 	border-bottom: 5px solid #eeeeee;
+	height: 40px;
 
 	&__container {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		padding-top: 7px;
 	}
 
 	&__social {
 		display: flex;
+		align-items: center;
+		padding-top: 7px;
+	}
+
+	&__social-text {
+		color: #C0BFC0;
+		font-weight: bold;
+		padding-right: 5px;
+		font-size: 0.8em;
+	}
+
+	&__social-icon img {
+		width: 80%;
+		padding-top: 3px;
 	}
 
 }
